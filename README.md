@@ -1,7 +1,7 @@
 # Identify repeated value in a matrix
 Ruby program to identify and list the duplicate numbers in a given Matrix
 
-User should define the matrix size (row and column), assuming user will provide the correct input for the matrix, 
+<b>User should define the matrix size (row and column), assuming user will provide the correct input for the matrix</b>, 
 not provided the validation for checking the valid matrix.  
 
 <b>Example input and output </b>
