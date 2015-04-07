@@ -14,17 +14,17 @@ class MatrixProgram
 
 end
 puts 'Please enter a row size'
-row_size     = gets.chomp
+row_size      = gets.chomp
 puts 'Please enter a column size'
-column_size  = gets.chomp
-increment    = 0
-matrix_value = []
-while increment < row_size.to_i
-  increment  = increment + 1
-  puts "Please enter #{column_size} column value separated by comma for #{increment.to_s} row"
-  row_value  = []
-  row_value  = gets.chomp
-  row_value  = row_value.split(',').map { |s| s.to_i }
+column_size   = gets.chomp
+increment_one = 1
+loop_value    = 0
+matrix_value  = []
+while loop_value < row_size.to_i
+  loop_value  = loop_value + increment_one
+  puts "Please enter #{column_size} column value separated by comma for #{loop_value.to_s} row"
+  row_value   = gets.chomp
+  row_value   = row_value.split(',').map { |s| s.to_i }
   matrix_value << row_value
 end
 puts "\n"
