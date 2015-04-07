@@ -4,7 +4,7 @@ Ruby program to identify and list the duplicate numbers in a given Matrix
 User should define the matrix size (row and column), assuming user will provide the correct input for the matrix, 
 not provided the validation for checking the valid matrix.  
 
-Example input and output 
+<b>Example input and output </b>
 
 Please enter a row size
 
